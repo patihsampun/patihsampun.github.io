@@ -30,23 +30,18 @@ en-GB:
 en-AU:
   <<: *DEFAULT_EN
 
-# Spanish
+# Bahasa Indonesia
 # -------
-es: &DEFAULT_ES
+id: &DEFAULT_ID
   nav:
-    - title: "Servicios"
+    - title: "Layanan"
       section: servicios
-    - title: "Portafolio"
+    - title: "Portofolio"
       section: portafolio
-    - title: "Cronología"
+    - title: "Tentang Kami"
       section: cronologia
-    - title: "Equipo"
+    - title: "Tim"
       section: equipo
-    - title: "Contáctenos"
+    - title: "Hubungi Kami"
       section: contacto
-    - title: "Fuente de la plantilla"
-      url: https://github.com/raviriley/agency-jekyll-theme/
-es-ES:
-  <<: *DEFAULT_ES
-es-CO:
-  <<: *DEFAULT_ES
+id-ID: *DEFAULT_ID
